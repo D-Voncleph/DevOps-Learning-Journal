@@ -1,0 +1,7 @@
+## Week 14 Summary: Local VM vs. EC2
+
+This week, I had the unique experience of running Linux in two different environments: on a local VM using VirtualBox, and on a cloud server using an AWS EC2 instance. This direct comparison gave me a clear understanding of the benefits of cloud computing for professional development.
+
+My local VM was a fantastic environment for learning the basics of the Linux command line. It provided a completely contained space where I had full control over the underlying hardware, all at no cost. However, its major limitation was that it was only accessible from my local computer and its scalability was restricted by my machine's resources.
+
+The EC2 instance, on the other hand, showed me the true power of the cloud. The key benefits are its elasticity, which allows me to instantly scale my server's resources up or down as needed. It's also accessible from anywhere with an internet connection, making it crucial for remote work and collaboration. The pay-as-you-go model of the cloud and the availability of the Free Tier make it a cost-effective way to experiment with powerful resources. Ultimately, while my local VM was a perfect starting point, the EC2 instance demonstrated that the cloud is a superior and indispensable tool for modern professional development.
