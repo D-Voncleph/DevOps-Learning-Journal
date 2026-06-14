@@ -1,0 +1,12 @@
+# Month 13 Executive Summary: Production Observability
+
+## Achievements
+- Successfully deployed a complete Prometheus monitoring instance inside a sandboxed Kubernetes environment.
+- Configured production-grade Grafana dashboards tracking infrastructure resource metrics.
+- Overcame resource starvation and race conditions to deploy a fully functional EFK (Elasticsearch, Fluentd, Kibana) stack.
+- Mastered Kibana Query Language (KQL) and Kibana Lens to construct visual analytics for application error tracking.
+
+## Operational SRE Principles Formulated
+1. **Never Debug via SSH:** Accessing individual nodes to read flat log files does not scale and fails instantly when ephemeral pods are destroyed by Kubernetes.
+2. **Design for Resource Constraints:** Deploying enterprise data layers (like JVM-heavy Elasticsearch) in restricted sandbox or edge environments requires precise JVM heap overrides, storage limits, and tailored readiness configurations.
+3. **Actionable Visualizations:** Dashboards must present immediate operational status (such as an Info-to-Error ratio pie chart) to minimize time-to-detection during high-severity outages.
